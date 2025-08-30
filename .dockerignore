@@ -1,0 +1,6 @@
+# .dockerignore
+node_modules
+.husky
+allure-results
+test-results
+
