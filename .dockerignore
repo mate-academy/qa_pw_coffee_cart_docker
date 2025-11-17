@@ -1,0 +1,8 @@
+node_modules
+.husky
+allure-results
+test-results
+.git
+.gitignore
+.vscode
+.idea
