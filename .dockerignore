@@ -1,0 +1,12 @@
+.dockerignore
+node_modules
+.husky
+allure-results
+test-results
+.git
+.gitignore
+*.log
+Dockerfile
+/playwright-report/
+/playwright/.cache/
+/allure-report/
