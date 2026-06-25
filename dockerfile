@@ -2,10 +2,10 @@ FROM node:22-slim
 
 WORKDIR /
 
-COPY package.json package-lock.json ./
+COPY package*.json ./
 RUN npm ci
-RUN npx playwright install --with-deps chromium
 
 COPY . .
+RUN npx playwright install --with-deps chromium
 
-CMD ["npm", "run", "test-local"]
+CMD ["npx", "playwright", "test"]
