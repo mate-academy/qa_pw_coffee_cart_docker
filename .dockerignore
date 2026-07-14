@@ -46,11 +46,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-Dockerfile
 docker-compose.yml
-.dockerignore
-README.md
 .git
 .gitignore
 .editorconfig
-playwright.config.ts

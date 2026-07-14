@@ -1,6 +1,6 @@
 FROM node:22-slim
 
-WORKDIR /app
+WORKDIR /
 
 RUN apt-get update && apt-get install -y \
 
