@@ -1,4 +1,4 @@
-# Docker container for the Coffee-Cart testing
+docker image list# Docker container for the Coffee-Cart testing
 
 ## Table of contents
 
